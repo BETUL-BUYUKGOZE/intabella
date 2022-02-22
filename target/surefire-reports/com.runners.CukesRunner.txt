@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.613 s <<< FAILURE! - in com.runners.CukesRunner
+initializationError(com.runners.CukesRunner)  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: file:///I:/intabella/src/test/resources/features/Login.feature
+Caused by: io.cucumber.core.gherkin.vintage.internal.gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(37:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'And User clicks Login Button'
+(38:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'And Copy the url'
+(39:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'And User copy the url and close browser'
+(40:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'And User opens new browser and paste url'
+(41:5): expected: #EOF, #TableRow, #TagLine, #ExamplesLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Then User should not be able to land on Login Page'
+
